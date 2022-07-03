@@ -1,0 +1,4 @@
+CREATE TABLE sport(
+    id VARCHAR(1024) PRIMARY KEY,
+    name VARCHAR(1024) UNIQUE
+)

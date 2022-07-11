@@ -22,7 +22,7 @@ public class MainController {
 
     @GetMapping
 //    public Mono<Sport> getById(@RequestParam("q") String sportName) {
-    public Mono<ResponseEntity> getById(@RequestParam("q") String sportName) {
+    public Mono<ResponseEntity> getByName(@RequestParam("q") String sportName) {
         return service.getByName(sportName);
     }
 
